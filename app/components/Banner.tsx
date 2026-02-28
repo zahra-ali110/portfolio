@@ -159,7 +159,7 @@ export default function Banner(): React.JSX.Element {
             </span>
           </p>
 
-          <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
+          <p className="text-lg text-white/80 lg:mx-0">
             A self-taught web and app developer dedicated to building meaningful digital experiences. I translate complex user needs into functional, high-performance products that bridge the gap between human intuition and technical logic.
           </p>
         </div>
