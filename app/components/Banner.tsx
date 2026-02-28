@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Banner(): React.JSX.Element {
-  const texts = ["WordPress Developer", "Django Developer", "Tailwind CSS", "Flutter Developer"]; const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const texts = ["WordPress Developer", "Django Developer", "Flutter Developer"]; const [currentTextIndex, setCurrentTextIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [typingSpeed, setTypingSpeed] = useState(100);
