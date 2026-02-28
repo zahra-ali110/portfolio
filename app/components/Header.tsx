@@ -10,43 +10,55 @@ export default function Header(): React.JSX.Element {
             href="/"
             className="text-white font-semibold text-lg tracking-tight hover:text-orange-400 transition-colors"
           >
-Zahra Ali          </Link>
+            Zahra Ali
+          </Link>
 
-          {/* Nav */}
-          <ul className="flex items-center gap-8 list-none m-0 p-0">
-            <li className="m-0 p-0">
-              <Link
-                href="#home"
-                className="text-white hover:text-orange-400 transition-colors text-base font-normal"
-              >
-                Home
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link
-                href="#about"
-                className="text-white hover:text-orange-400 transition-colors text-base font-normal"
-              >
-                About
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link
-                href="#lab"
-                className="text-white hover:text-orange-400 transition-colors text-base font-normal"
-              >
-                Projects
-              </Link>
-            </li>
-            <li className="m-0 p-0">
-              <Link
-                href="#contact"
-                className="text-white hover:text-orange-400 transition-colors text-base font-normal"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
+          {/* Nav + CV button */}
+          <div className="flex items-center gap-6">
+            <ul className="flex items-center gap-8 list-none m-0 p-0">
+              <li className="m-0 p-0">
+                <Link
+                  href="#home"
+                  className="text-white hover:text-orange-400 transition-colors text-base font-normal"
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="m-0 p-0">
+                <Link
+                  href="#about"
+                  className="text-white hover:text-orange-400 transition-colors text-base font-normal"
+                >
+                  About
+                </Link>
+              </li>
+              <li className="m-0 p-0">
+                <Link
+                  href="#lab"
+                  className="text-white hover:text-orange-400 transition-colors text-base font-normal"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li className="m-0 p-0">
+                <Link
+                  href="#contact"
+                  className="text-white hover:text-orange-400 transition-colors text-base font-normal"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+
+            {/* Download CV button */}
+            <a
+              href="/cv/zahraCV.pdf"
+              download
+              className="inline-flex items-center gap-2 rounded-xl border border-orange-400/25 bg-orange-500/10 px-4 py-2 text-sm text-orange-200 hover:bg-orange-500/15 transition-colors"
+            >
+              Download CV
+            </a>
+          </div>
         </div>
       </nav>
     </header>
