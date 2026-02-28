@@ -12,34 +12,31 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  title: "Zahra Ali - Web Developer and Designer",
+  description: "A self-taught web and app developer dedicated to building meaningful digital experiences. I translate complex user needs into functional, high-performance products that bridge the gap between human intuition and technical logic.",
   keywords: [
-    "Ibrahim Memon",
-    "Software Engineer",
+    "Zahra Ali",
+    "Web Developer and Designer",
     "UI/UX Designer",
     "Frontend Developer",
-    "React Developer",
-    "Next.js Developer",
     "Web Designer",
-    "WebHR Engineer",
     "Portfolio",
   ],
-  authors: [{ name: "Ibrahim Memon" }],
-  creator: "Ibrahim Memon",
-  publisher: "Ibrahim Memon",
+  authors: [{ name: "Zahra Ali" }],
+  creator: "Zahra Ali",
+  publisher: "Zahra Ali",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibiimemon.com",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
-    siteName: "Ibrahim Memon Portfolio",
+    url: "",
+    title: "Zahra Ali - Web Developer and Designer",
+    description: "A self-taught web and app developer dedicated to building meaningful digital experiences.",
+    siteName: "Zahra Ali Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
+    title: "Zahra Ali - Web Developer and Designer",
+    description: "A self-taught web and app developer dedicated to building meaningful digital experiences.",
   },
   robots: {
     index: true,
@@ -68,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibiimemon.com" />
+        <link rel="canonical" href="" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
